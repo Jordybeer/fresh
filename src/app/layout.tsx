@@ -2,8 +2,7 @@
 import { dark } from "@clerk/themes";
 import type { AppProps } from "next/app";
 import { Inter } from "next/font/google";
-import { ClerkProvider, SignIn } from "@clerk/nextjs";
-
+import { ClerkProvider, SignedIn, SignedOut, RedirectToSignIn } from '@clerk/nextjs';
 
 const {
   Center: ChakraCenter,
